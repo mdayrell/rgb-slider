@@ -1,0 +1,34 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin-top: 10px
+}
+
+#cor {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.r, .g, .b{
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#vermelho {
+    margin-left: 20px;;
+}
+
+#verde {
+    margin-left: 44px;
+}
+
+#azul {
+    margin-left: 58px;
+}
+
+#red, #green, #blue{
+    margin-left: 10px;
+}
