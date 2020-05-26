@@ -1,4 +1,4 @@
-# RGB-slider
+# RGB-Slider
 
 -- Projeto prático realizado no Bootcamp Fullstack --
 
