@@ -1,34 +1,46 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px auto;
+    background: url('../img/01.jpg');
+}
+
+.box {
     padding: 10px;
-    margin-top: 10px
+    background: aliceblue;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+   min-width: 110px;
+   color: black;
+}
+
+.slider {
+    min-width: 255px;
+}
+
+.valor {
+    margin-left: 10px;
+    width: 25px;
 }
 
 #cor {
     padding-top: 10px;
     text-align: center;
+    color: black;
 }
 
-.r, .g, .b{
-    padding: 5px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#resultado {
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
-#vermelho {
-    margin-left: 20px;;
-}
-
-#verde {
-    margin-left: 44px;
-}
-
-#azul {
-    margin-left: 58px;
-}
-
-#red, #green, #blue{
-    margin-left: 10px;
-}

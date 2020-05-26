@@ -6,28 +6,30 @@
     <title>RGB Slider</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body id='resultado'>
-    <div class="seletor">
-        <div class="r">
-            (R) Vermelho: 
-            <input type="range" min="0"       max="255" step="1" id=vermelho value="0">
-            <input type="text"  id="red"  size="1">
+<body>
+    <div class="box">
+        <div class="row">
+            <span  class="label">(R) Vermelho:</span>
+            <input class="slider" type="range" min="0"  max="255" step="1" id=vermelho value="0">
+            <input class="valor"  type="text"  disabled value="0" id="red">
         </div>
 
-        <div class="g">
-            (G) Verde:    
-            <input type="range" min="0"       max="255"  step="1" id=verde value="0">
-            <input type="text"  id="green" size="1">
+        <div class="row">
+            <span  class="label"> (G) Verde:</span> 
+            <input class="slider" type="range" min="0"  max="255"  step="1" id=verde value="0">
+        <input class="valor"  type="text"  disabled value=0    id="green">
         </div>
         
-        <div class="b">
-            (B) Azul:     
-            <input type="range" min="0"       max="255" step="1" id=azul value="0">
-            <input type="text"  id="blue" size="1">
+        <div class="row">
+            <span  class="label">(B) Azul:</span>    
+            <input class="slider" type="range" min="0"  max="255" step="1" id=azul value="0">
+            <input class="valor"  type="text"  disabled value="0" id="blue">
         </div>
 
+        <div id="resultado"></div>
         <div id="cor"></div>
     </div>
+
     <script src="./js/scripts.js"></script>
 </body>
 </html>
